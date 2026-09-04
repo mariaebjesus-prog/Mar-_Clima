@@ -77,3 +77,23 @@ input, button{
 button {
     margin-top: 8px;
 }
+/* RODAPÉ */
+
+footer{
+    margin-top: 30px;
+    padding: 18px;
+    background: #2d4e8b;
+    color: white;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    font-size: 14px;
+}
+
+footer p{
+    color: white;
+    margin: 5px 0;
+}
+
+footer small{
+    color: #dbe7ff;
+}
