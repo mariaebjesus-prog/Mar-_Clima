@@ -1,0 +1,79 @@
+body{  /* Está mudando o fundo tamnho e cor */
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#97bffa7a;
+}
+
+.container{/* Está mudando o fundodo do quadrado o tamnho e cor e borda  */
+    width:320px;
+    margin:60px auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(120, 144, 207, 0.452);
+}
+/* Está mudando as cor dasletras  */
+h1{
+    color:#2e4f8b;
+}
+
+p{
+    color:#666;
+}
+/* Está mudando  cor do da borda  do quadrado de perguntas e o tamnho  */
+input{
+    width:90%;
+    padding:10px;
+    margin:15px 0;
+    border:1px solid #2c4a779a;
+    border-radius:8px;
+  
+}
+
+button{/* Está mudando  cor do botão e o tamnho  */
+    width:100%;
+    padding:12px;
+    background:#2d4e8b;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+
+}
+/* Está mudando  da resposta da tamnho  */
+#resultado{
+    margin-top:20px;
+}
+
+.container {
+    width:100%;
+     padding:16px;
+       box-sizing:border-box;
+}
+
+input, button{
+    width: 100%;
+}
+@media (min-width: 600px) { 
+.container{ 
+max-width: 480px;
+margin: 0 auto;
+padding: 32px;
+}
+input {
+    width: 70%;
+}
+button {
+    width: 28%;
+}
+}/* para ajustar elementos para toque*/
+input, button{
+    min-height: 44px;
+    font-size: 16px;
+    padding: 10px 14px;
+}
+
+button {
+    margin-top: 8px;
+}
